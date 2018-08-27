@@ -19,13 +19,11 @@ const Signin = ({ onRouteChange}) => {
 			    <div className="">
 			      <input 
 			      	onClick = {() =>onRouteChange('home')}
-				    className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib" 
+				    className="f6 dib black bg-animate hover-bg-white hover-black no-underline pv2 ph4 br-pill ba b--black-80 bg-transparent pointer" 
 				    type="submit" 
 			        value="Sign in"/>
 			    </div>
-			    <div className="lh-copy mt3">
-			      <p  onClick = {() =>onRouteChange('register')}className="f6 link dim black db pointer">Register</p>
-			    </div>
+			   
 			  </div>
 		</main>
 	</article>
